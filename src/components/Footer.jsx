@@ -1,11 +1,11 @@
-
+/* eslint-disable react/no-unescaped-entities */
 const Footer = () => {
     const year = new Date().getFullYear();
     return (
-        <div className="w-full  bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-6">
-            <div className='max-w-6xl mx-auto flex flex-col items-center text-center'>
+        <div className="w-full  bg-gradient-to-r from-green-900 via-gray-800 to-green-900 text-white py-4">
+            <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
                 <p className="text-lg font-semibold">
-                    Made with 💗 by {" "}
+                    Made with 💗 for Cricket 🏏 by{" "}
                     <a
                         href="https://www.linkedin.com/in/vivek-nag-a125482b2/"
                         target="_blank"
@@ -16,6 +16,9 @@ const Footer = () => {
                         Vivek Nag
                     </a>
                 </p>
+                <p className="italic py-1 text-sm text-gray-300">
+                    "Because every ball counts, and every score matters! 🏆"
+                </p>
                 <p className="mt-2 text-sm">
                     <span className="mr-1">©️ {year}</span>
                     <a
@@ -25,7 +28,8 @@ const Footer = () => {
                         className="font-bold text-teal-400 hover:text-teal-500 underline"
                         title="Movie Mania Github Repository"
                     >
-                        Cric-<span className="text-red-400">Live-</span><span className='text-blue-600'>Score</span>
+                        Crick-<span className="text-red-400">Live-</span>
+                        <span className="text-blue-600">Score</span>
                     </a>
                 </p>
                 <div className="mt-4 flex gap-4">
@@ -55,10 +59,9 @@ const Footer = () => {
                         <i className="fas fa-envelope fa-lg"></i>
                     </a>
                 </div>
-
             </div>
         </div>
     );
 };
 
-export default Footer
+export default Footer;
