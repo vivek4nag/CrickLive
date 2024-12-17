@@ -16,7 +16,7 @@ const ScoreCard = ({
   return (
     <div
       id={key}
-      className="w-80 h-auto bg-gray-400 rounded-lg p-4 shadow-lg m-2"
+      className="w-80 h-auto bg-gray-400 rounded-lg p-4 shadow-lg m-2 cursor-pointer"
     >
       <h2 className="text-lg font-bold pb-2 text-center text-black">
         {series}
