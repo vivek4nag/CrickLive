@@ -3,7 +3,6 @@ import teamLogo from "../assets/image.png";
 
 const ScoreCard = ({
   matchType,
-  key,
   status,
   series,
   t1,
@@ -15,7 +14,7 @@ const ScoreCard = ({
 }) => {
   return (
     <div
-      id={key}
+      
       className="w-80 h-auto bg-gray-400 rounded-lg p-4 shadow-lg m-2 cursor-pointer"
     >
       <h2 className="text-lg font-bold pb-2 text-center text-black">
@@ -28,7 +27,7 @@ const ScoreCard = ({
         <div className="flex flex-col items-center">
           <img src={t1img || teamLogo} className="h-12 w-12 rounded-full" />
           <p className="text-center font-medium text-blue-800">{t1}</p>
-          <p className="text-xl text-green-900 pt-2 font-bold">
+          <p className="text-lg text-green-900 pt-2 font-bold">
             {t1s ? t1s : "-"}
           </p>
         </div>
@@ -36,7 +35,7 @@ const ScoreCard = ({
         <div className="flex flex-col items-center">
           <img src={t2img || teamLogo} className="h-12 w-12 rounded-full" />
           <p className="text-center font-medium text-blue-800">{t2}</p>
-          <p className="text-xl text-green-900 pt-2 font-bold">
+          <p className="text-lg text-green-900 pt-2 font-bold">
             {t2s ? t2s : "-"}
           </p>
         </div>

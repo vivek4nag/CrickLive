@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="w-full  bg-gradient-to-r from-green-900 via-gray-800 to-green-900 text-white py-4">
             <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
-                <p className="text-lg font-semibold">
+                <p className="text-lg font-semibold animate-pulse">
                     Made with 💗 for Cricket 🏏 by{" "}
                     <a
                         href="https://www.linkedin.com/in/vivek-nag-a125482b2/"
@@ -26,7 +26,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-bold text-teal-400 hover:text-teal-500 underline"
-                        title="Movie Mania Github Repository"
+                        title="CrickScore Github Repository"
                     >
                         Crick-<span className="text-red-400">Live-</span>
                         <span className="text-blue-600">Score</span>
