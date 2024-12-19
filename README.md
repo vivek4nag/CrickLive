@@ -2,7 +2,9 @@
 
 Welcome to the Cricket Score App, your one-stop destination for live cricket scores happening around the globe! Whether it's the Ashes, IPL, or the World Cup, we've got your cricket cravings covered. Filter and find your favorite team's scores faster than a yorker at 150 kph!
 
+## 📎live link
 
+"Don't just keep hitting refresh on your favorite sports website; check out live scores like a pro right here🏏: [check it here now 😊](https://cricklive-score-vivek04.netlify.app/)
 
 ## 🌟 Features
 
